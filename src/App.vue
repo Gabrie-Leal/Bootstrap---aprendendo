@@ -30,6 +30,6 @@ export default {
 }
 p, li {
   color: #444;
-  font-size: 14px;
+  font-size: 20px;
 }
 </style>
