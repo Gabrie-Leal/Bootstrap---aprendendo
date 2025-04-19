@@ -5,10 +5,10 @@
               <div class="col-12"> 
                 <h3 class="main-title">Sobre a hDC Agency</h3>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-7">
                 <img class="img-fluid" src="../assets/agencia.jpg" alt="Agência hDC">
               </div>
-              <div class="col-md-6">
+              <div class="col-md-5">
                 <h3 class="about-title">Uma agência que pensa no futuro</h3>
                 <p>Nossos projetos são adaptados ao cliente e seu propósito.</p>
                 <p>Após a especificação do projetos os arquitetos de software definirão as melhores tecnologias para seu projeto.</p>
