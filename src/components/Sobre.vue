@@ -14,6 +14,12 @@
                     <p>Após a especificação do projetos os arquitetos de software definirão as melhores tecnologias para seu projeto.</p>
                     <p>E nossos designers trabalharão na sua interface/layout para impulsionar o negócio.</p>
                     <p>Veja outros diferenciais:</p>
+                    <ul id="about-list">
+                        <li><i class="fas fa-check"></i></li>
+                        <li><i class="fas fa-check"></i></li>
+                        <li><i class="fas fa-check"></i></li>
+                        <li><i class="fas fa-check"></i></li>
+                    </ul>
                 </div>
             </div>
         </div>
