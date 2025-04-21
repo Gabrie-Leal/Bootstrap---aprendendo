@@ -39,6 +39,7 @@
             </div>
             <Sobre/>
             <Especialidades/>
+            <Dados/>
     </main>
 </template>
 
@@ -53,11 +54,12 @@
 <script>
 import Sobre from "./Sobre.vue"
 import Especialidades from "./Especialidades.vue"
+import Dados from "./Dados.vue"
 export default {
     name: "ConteudoMain",
 
     components:{
-        Sobre, Especialidades
+        Sobre, Especialidades, Dados
     },
 
     data() {
