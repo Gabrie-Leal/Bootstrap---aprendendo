@@ -50,10 +50,5 @@ p, li {
     left:42.5%;
 }
 
-.about-title{
-    font-size: 17px;
-    color:#444;
-    text-transform: uppercase;
-    font-weight: bold;
-}
+
 </style>
