@@ -41,6 +41,7 @@
 }
 
 #pattern-img {
+    background-image: url(/pattern.png);
     background-size: cover;
 }
 
@@ -79,17 +80,5 @@
 <script>
 export default {
     name: "Trabalho",
-
-    methods: {
-        carregarImagens() {
-            setTimeout(function () {
-                $('#apply-area').parallax({ imageSrc: '/pattern.png' });
-            }, 200);
-        }
-    },
-
-    mounted() {
-        this.carregarImagens();
-    }
 };
 </script>
