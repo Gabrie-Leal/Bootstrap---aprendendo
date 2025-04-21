@@ -41,6 +41,7 @@
             <Especialidades/>
             <Dados/>
             <ColaboradoresCards/>
+            <Trabalho/>
     </main>
 </template>
 
@@ -57,12 +58,13 @@ import Sobre from "./Sobre.vue"
 import Especialidades from "./Especialidades.vue"
 import Dados from "./Dados.vue"
 import ColaboradoresCards from "./ColaboradoresCards.vue"
+import Trabalho from "./Trabalho.vue"
 
 export default {
     name: "ConteudoMain",
 
     components:{
-        Sobre, Especialidades, Dados, ColaboradoresCards
+        Sobre, Especialidades, Dados, ColaboradoresCards,Trabalho
     },
 
     data() {
