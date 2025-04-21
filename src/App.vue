@@ -32,4 +32,28 @@ p, li {
   color: #444;
   font-size: 20px;
 }
+
+.main-title{
+    color:#444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+}
+
+.main-title::after {
+    content:"";
+    border-top:2px solid #333;
+    width:15%;
+    position: absolute;
+    top:60px;
+    left:42.5%;
+}
+
+.about-title{
+    font-size: 17px;
+    color:#444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 </style>

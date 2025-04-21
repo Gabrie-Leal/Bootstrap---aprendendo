@@ -1,6 +1,5 @@
 <template>
-    <main>
-        <div class="container-fluid">
+    <main class="container-fluid">
             <div id="mainSlider" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-bs-target="#mainSlider" data-bs-slide-to="0" class="active"></li>
@@ -39,7 +38,7 @@
                 </div>
             </div>
             <Sobre/>
-        </div>
+            <Especialidades/>
     </main>
 </template>
 
@@ -53,11 +52,12 @@
 
 <script>
 import Sobre from "./Sobre.vue"
+import Especialidades from "./Especialidades.vue"
 export default {
     name: "ConteudoMain",
 
     components:{
-        Sobre
+        Sobre, Especialidades
     },
 
     data() {
