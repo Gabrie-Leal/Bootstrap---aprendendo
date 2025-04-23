@@ -7,18 +7,33 @@
                 </div>
 
                 <div class="col-md-12" id="filter-btn-box">
-                    <button class="btn btn-primary active" ref="btnTodos" id="all-btn" @click="todos()">Todos</button>
-                    <button class="btn btn-primary" ref="btnDev" id="dev-btn" @click="dev()">Desenvolvimento</button>
-                    <button class="btn btn-primary" ref="btnDsg" id="dsg-btn" @click="dsg()">Design</button>
-                    <button class="btn btn-primary" ref="btnSeo" id="seo-btn" @click="seo()">SEO</button>
+                    <button class="btn btn-primary active" ref="btnTodos" id="all-btn"
+                        @click="filtrar(1)">Todos</button>
+                    <button class="btn btn-primary" ref="btnDev" id="dev-btn"
+                        @click="filtrar(2)">Desenvolvimento</button>
+                    <button class="btn btn-primary" ref="btnDsg" id="dsg-btn" @click="filtrar(3)">Design</button>
+                    <button class="btn btn-primary" ref="btnSeo" id="seo-btn" @click="filtrar(4)">SEO</button>
                 </div>
-                <img class="col-md-4 img-fluid" v-for="(projeto, index) in projetos" :key="index" :src="projeto" alt="">
+
+                <TransitionGroup name="fade" tag="ul" class="mb-5">
+                    <img class="col-md-4 img-fluid p-1" v-for="(projeto, index) in projetos" :key="index" :src="projeto" alt="">
+                </TransitionGroup>
             </div>
         </div>
     </div>
 </template>
 
 <style scoped>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 1s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+
 #filter-btn-box {
     text-align: center;
     margin-bottom: 30px;
@@ -30,7 +45,7 @@
     color: #444;
     border: 1px solid#444;
     text-transform: none;
-    margin:0 15px;
+    margin: 0 15px;
     min-width: 100px;
     width: auto;
     height: 40px;
@@ -42,11 +57,6 @@
     border-color: #65DAF9;
     background-color: #65DAF9;
     color: #fff;
-}
-
-img {
-    margin-bottom: 3px;
-    animation: fadeOut .5s;
 }
 </style>
 
@@ -65,45 +75,53 @@ export default {
         };
     },
     methods: {
-        todos() {
-            this.projetos = [proj1, proj2, proj3, proj4, proj5, proj6];
-            this.resetAtivos();
-            this.$refs.btnTodos.classList.add("active");
-        },
-        dev() {
-            const btnSelecionado = this.$refs.btnDev;
+        filtrar(valor) {
+            switch (valor) {
+                case 1: {
+                    this.projetos = [proj1, proj2, proj3, proj4, proj5, proj6];
+                    this.resetAtivos();
+                    this.$refs.btnTodos.classList.add("active");
+                    break;
+                };
+                case 2: {
+                    const btnSelecionado = this.$refs.btnDev;
 
-            if (btnSelecionado.classList.contains("active")) {
-                btnSelecionado.classList.remove("active");
-                this.todos();
-            } else {
-                this.resetAtivos();
-                this.projetos = [proj2, proj5, proj6];
-                btnSelecionado.classList.add("active");
-            }
-        },
-        dsg() {
-            const btnSelecionado = this.$refs.btnDsg;
+                    if (btnSelecionado.classList.contains("active")) {
+                        btnSelecionado.classList.remove("active");
+                        this.filtrar(1);
+                    } else {
+                        this.resetAtivos();
+                        this.projetos = [proj2, proj5, proj6];
+                        btnSelecionado.classList.add("active");
+                    }
+                    break;
+                };
+                case 3: {
+                    const btnSelecionado = this.$refs.btnDsg;
 
-            if (btnSelecionado.classList.contains("active")) {
-                btnSelecionado.classList.remove("active");
-                this.todos();
-            } else {
-                this.resetAtivos();
-                this.projetos = [proj1, proj3, proj6];
-                btnSelecionado.classList.add("active");
-            }
-        },
-        seo() {
-            const btnSelecionado = this.$refs.btnSeo;
+                    if (btnSelecionado.classList.contains("active")) {
+                        btnSelecionado.classList.remove("active");
+                        this.filtrar(1);
+                    } else {
+                        this.resetAtivos();
+                        this.projetos = [proj1, proj3, proj6];
+                        btnSelecionado.classList.add("active");
+                    }
+                    break;
+                };
+                case 4: {
+                    const btnSelecionado = this.$refs.btnSeo;
 
-            if (btnSelecionado.classList.contains("active")) {
-                btnSelecionado.classList.remove("active");
-                this.todos();
-            } else {
-                this.resetAtivos();
-                this.projetos = [proj3, proj4];
-                btnSelecionado.classList.add("active");
+                    if (btnSelecionado.classList.contains("active")) {
+                        btnSelecionado.classList.remove("active");
+                        this.filtrar(1);
+                    } else {
+                        this.resetAtivos();
+                        this.projetos = [proj3, proj4];
+                        btnSelecionado.classList.add("active");
+                    }
+                    break;
+                }
             }
         },
         resetAtivos() {
