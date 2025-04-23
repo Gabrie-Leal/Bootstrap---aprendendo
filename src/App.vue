@@ -2,17 +2,20 @@
   <div>
     <HeaderNavegacao/>
     <ConteudoMain/>
+    <Novidades/>
   </div>
 </template>
 
 <script>
 import HeaderNavegacao from "./components/HeaderNavegacao.vue"
 import ConteudoMain from "./components/ConteudoMain.vue"
+import Novidades from "./components/Novidades.vue";
 
 export default {
   components: {
     HeaderNavegacao,
     ConteudoMain,
+    Novidades,
   }
 }
 </script>

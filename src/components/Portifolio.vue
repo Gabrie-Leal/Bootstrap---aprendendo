@@ -33,7 +33,6 @@
   opacity: 0;
 }
 
-
 #filter-btn-box {
     text-align: center;
     margin-bottom: 30px;
