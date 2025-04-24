@@ -27,6 +27,10 @@ export default {
 </script>
 
 <style>
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   font-family: "Roboto", sans-serif;
 }

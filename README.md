@@ -1,5 +1,13 @@
-# Vue 3 + Vite
+# 🌐 HDC Agency - Website
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Este é um projeto de site responsivo para uma agência fictícia, desenvolvido com **Vue.js**, **Vite**, **Bootstrap 5** e uma biblioteca de **parallax** para criar efeitos visuais modernos e atrativos.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## 🚀 Tecnologias Utilizadas
+
+- [Vue.js 3](https://vuejs.org/) - Framework JavaScript progressivo
+- [Vite](https://vitejs.dev/) - Ferramenta de build e dev server ultra rápida
+- [Bootstrap 5](https://getbootstrap.com/) - Framework CSS responsivo
+- [Bootstrap Icons](https://icons.getbootstrap.com/) - Ícones oficiais do Bootstrap
+- Biblioteca de **Parallax JS** para efeitos visuais
+- HTML5 & CSS3
+

@@ -20,7 +20,7 @@
                     <div class="carousel-caption d-none d-md-block">
                         <h2>Esta querendo tirar o projeto do papel?</h2>
                         <p>Nossa equipe de engenharia de software esta pronta!</p>
-                        <a href="#" class="main-btn">Entre em contato</a>
+                        <a href="#contatoEmpresa" class="main-btn">Entre em contato</a>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -28,7 +28,7 @@
                     <div class="carousel-caption d-none d-md-block">
                         <h2>Buscando manutenção?</h2>
                         <p>Temos profissionais altamente qualificados</p>
-                        <a href="#" class="main-btn">Entre em contato</a>
+                        <a href="#contatoEmpresa" class="main-btn">Entre em contato</a>
                     </div>
                 </div>
             </div>

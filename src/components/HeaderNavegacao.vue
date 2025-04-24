@@ -13,12 +13,12 @@
 
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
                     <div class="navbar-nav">
-                        <a class="nav-item nav-link ps-3" href="#" id="home-menu">Home</a>
-                        <a class="nav-item nav-link ps-3" href="#" id="about-menu">Agência</a>
-                        <a class="nav-item nav-link ps-3" href="#" id="services-menu">Serviços</a>
-                        <a class="nav-item nav-link ps-3" href="#" id="team-menu">Time</a>
-                        <a class="nav-item nav-link ps-3" href="#" id="portifolio-menu">Projetos</a>
-                        <a class="nav-item nav-link ps-3" href="#" id="contact-menu">Contato</a>
+                        <a class="nav-item nav-link ps-3" href="#nav-container" id="home-menu">Home</a>
+                        <a class="nav-item nav-link ps-3" href="#about-area" id="about-menu">Agência</a>
+                        <a class="nav-item nav-link ps-3" href="#services-area" id="services-menu">Serviços</a>
+                        <a class="nav-item nav-link ps-3" href="#team-area" id="team-menu">Time</a>
+                        <a class="nav-item nav-link ps-3" href="#portifolio" id="portifolio-menu">Projetos</a>
+                        <a class="nav-item nav-link ps-3" href="#contatoEmpresa" id="contact-menu">Contato</a>
                     </div>
                 </div>
             </nav>

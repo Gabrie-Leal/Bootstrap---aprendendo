@@ -1,5 +1,5 @@
 <template>
-    <section class="container text-center mb-0">
+    <section class="container text-center mb-0" id="contatoEmpresa">
         <div class="row">
             <h3 class="col-md-12 main-title">Entre em contato conosco</h3>
 

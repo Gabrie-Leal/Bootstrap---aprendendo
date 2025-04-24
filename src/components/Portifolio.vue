@@ -1,5 +1,5 @@
 <template>
-    <div class="portifolio-area">
+    <div class="portifolio-area" id="portifolio">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
