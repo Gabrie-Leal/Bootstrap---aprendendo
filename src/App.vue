@@ -3,19 +3,25 @@
     <HeaderNavegacao/>
     <ConteudoMain/>
     <Novidades/>
+    <InfoEmpresa/>
+    <Rodape/>
   </div>
 </template>
 
 <script>
 import HeaderNavegacao from "./components/HeaderNavegacao.vue"
 import ConteudoMain from "./components/ConteudoMain.vue"
-import Novidades from "./components/Novidades.vue";
+import Novidades from "./components/Novidades.vue"
+import InfoEmpresa from "./components/InfoEmpresa.vue"
+import Rodape from "./components/Rodape.vue"
 
 export default {
   components: {
     HeaderNavegacao,
     ConteudoMain,
     Novidades,
+    InfoEmpresa,
+    Rodape
   }
 }
 </script>
