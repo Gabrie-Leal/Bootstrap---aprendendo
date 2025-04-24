@@ -1,7 +1,7 @@
 <template>
     <header>
         <div class="container" id="nav-container">
-            <nav class="navbar navbar-expand-lg fixed-top">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
                 <a href="#" class="navbar-brand">
                     <img src="../assets/hdcagency_logo.svg" alt="HDC Agency" id="logo">
                     HDC Agency
