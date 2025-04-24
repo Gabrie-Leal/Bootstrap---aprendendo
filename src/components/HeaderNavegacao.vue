@@ -6,19 +6,19 @@
                     <img src="../assets/hdcagency_logo.svg" alt="HDC Agency" id="logo">
                     HDC Agency
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbar-links"
+                <button class="navbar-toggler me-3 border border-dark border-4 " type="button" data-toggle="collapse" data-target="#navbar-links"
                     aria-controls="navbar-links" arial-expanded="false" aria-label="toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
                     <div class="navbar-nav">
-                        <a class="nav-item nav-link" href="#" id="home-menu">Home</a>
-                        <a class="nav-item nav-link" href="#" id="about-menu">Agência</a>
-                        <a class="nav-item nav-link" href="#" id="services-menu">Serviços</a>
-                        <a class="nav-item nav-link" href="#" id="team-menu">Time</a>
-                        <a class="nav-item nav-link" href="#" id="portifolio-menu">Projetos</a>
-                        <a class="nav-item nav-link" href="#" id="contact-menu">Contato</a>
+                        <a class="nav-item nav-link ps-3" href="#" id="home-menu">Home</a>
+                        <a class="nav-item nav-link ps-3" href="#" id="about-menu">Agência</a>
+                        <a class="nav-item nav-link ps-3" href="#" id="services-menu">Serviços</a>
+                        <a class="nav-item nav-link ps-3" href="#" id="team-menu">Time</a>
+                        <a class="nav-item nav-link ps-3" href="#" id="portifolio-menu">Projetos</a>
+                        <a class="nav-item nav-link ps-3" href="#" id="contact-menu">Contato</a>
                     </div>
                 </div>
             </nav>
