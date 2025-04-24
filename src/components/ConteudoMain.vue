@@ -1,7 +1,7 @@
 <template>
     <main class="container-fluid">
             <div id="mainSlider" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
+                <ol class="carousel-indicators list-unstyled">
                     <li data-bs-target="#mainSlider" data-bs-slide-to="0" class="active"></li>
                     <li data-bs-target="#mainSlider" data-bs-slide-to="1"></li>
                     <li data-bs-target="#mainSlider" data-bs-slide-to="2"></li>
